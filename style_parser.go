@@ -47,7 +47,11 @@ var StyleParserColorMap = map[string]Color{
         "pink":    ColorPink,
         "lightblue": ColorLightBlue,
         "lightgreen": ColorLightGreen,
+        "lightpurple": ColorLightPurple,
+        "lightyellow": ColorLightYellow,
+        "lightorange": ColorLightOrange,
 }
+
 
 var modifierMap = map[string]Modifier{
 	"bold":      ModifierBold,
