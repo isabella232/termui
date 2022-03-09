@@ -18,6 +18,11 @@ const (
 	ColorMagenta Color = 5
 	ColorCyan    Color = 6
 	ColorWhite   Color = 7
+        ColorPurple  Color = 92
+        ColorOrange  Color = 208
+        ColorPink    Color = 201
+        ColorLightBlue Color = 39
+        ColorLightGreen Color = 121
 )
 
 type Modifier uint
