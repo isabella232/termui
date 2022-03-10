@@ -5,6 +5,9 @@ package termui
 // 0-255 = Xterm colors
 type Color int
 
+const MaxColor = 255
+const MinColor = 0
+
 // ColorClear clears the Fg or Bg color of a Style
 const ColorClear Color = -1
 
@@ -18,14 +21,14 @@ const (
 	ColorMagenta Color = 5
 	ColorCyan    Color = 6
 	ColorWhite   Color = 7
-        ColorPurple  Color = 92
-        ColorOrange  Color = 208
-        ColorPink    Color = 201
-        ColorLightBlue Color = 39
-        ColorLightGreen Color = 121
-        ColorLightPurple Color = 183
-        ColorLightYellow Color = 228
-        ColorLightOrange Color = 214
+	ColorPurple  Color = 92
+	ColorOrange  Color = 208
+	ColorPink    Color = 201
+	ColorLightBlue Color = 39
+	ColorLightGreen Color = 121
+	ColorLightPurple Color = 183
+	ColorLightYellow Color = 228
+	ColorLightOrange Color = 214
 )
 
 type Modifier uint
