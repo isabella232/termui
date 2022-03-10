@@ -5,7 +5,7 @@ package termui
 // 0-255 = Xterm colors
 type Color int
 
-const MaxColor = 255
+const MaxColor = 232 // Only include colors that contrast well  
 const MinColor = 0
 
 // ColorClear clears the Fg or Bg color of a Style
